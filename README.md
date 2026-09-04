@@ -25,11 +25,11 @@ The treasury platform for the same client — payment-rail routing by amount, an
 | Repo | What it shows |
 |---|---|
 | [**VWare**](https://github.com/mahdincc/VWare) | The pricing and reconciliation platform I built as CFO of Viravin, in .NET/C#: ~5,500 SKU-level listings registered and under management across 16 suppliers, transaction-level reconciliation between sales channel, payment gateway and supplier, SnappShop/TapsiShop integration. 853 C# files, 37 projects, a custom CQRS/mediator framework (GiliX), a `RedactionEngine` that keeps secrets out of logs. |
-| **Spider** *(private)* | The MVP that preceded VWare: FastAPI + HTMX price discovery across 14 Iranian suppliers, 4 live crawlers, Dockerized, 351 tests (298 in CI). |
+| **Spider** *(product, available on request)* | Cross-supplier price discovery for the Iranian mobile market: FastAPI + HTMX, live crawlers across 14 suppliers, Dockerized, 351 tests (298 in CI). Not public because it is sold, not shown. Setup on your own systems takes about a week, and the product is under continuous development. Ask by email. |
 | [**talafee**](https://github.com/mahdincc/talafee) | Prototype, instance decommissioned: real-time gold-price comparison for the Iranian market, 12 providers normalised every 30 s, cross-provider anomaly detection, trust scoring. |
 | [**xPoints**](https://github.com/mahdincc/xPoints) | Explainable, self-calibrating football prediction engine: EV-optimal decisions from de-vigged odds, self-grading backtests, Brier calibration, 62 tests. |
 
-Spider → VWare is one product story: the FastAPI MVP validated the idea, the .NET platform scaled it. Marketplace pricing and crawlers are the engineering range; finance systems are the job.
+Spider validated the idea that VWare then scaled inside Viravin; Spider is now the standalone product. Marketplace pricing and crawlers are the engineering range; finance systems are the job.
 
 ## Before this
 
